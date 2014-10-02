@@ -7,9 +7,7 @@
 
 #A prompt to make the console cleaner
 def prompt(msg)
-  puts "------------------------------"
   puts "=> #{msg}"
-  puts "-------------------------------"
 end
 
 def start
@@ -43,6 +41,7 @@ end
 start
 
 prompt("Start over? yes or no?")
+prompt("When yes is chosen the app will continue running unless you hit ctrl-c")
 answer = gets.chomp
 
 while answer == "yes"
