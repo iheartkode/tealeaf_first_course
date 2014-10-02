@@ -4,9 +4,6 @@
 #do the math
 #display results
 
-#A variable for operators
-
-operators = "+" "-" "*" "/"
 
 #A prompt to make the console cleaner
 def prompt(msg)
