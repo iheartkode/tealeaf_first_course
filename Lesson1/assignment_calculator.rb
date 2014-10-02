@@ -42,7 +42,7 @@ num2 = gets.chomp.to_f
    end
 end
 
-
+#Call the method to start the calculator
 start
 
 prompt("Start over? yes or no?")
