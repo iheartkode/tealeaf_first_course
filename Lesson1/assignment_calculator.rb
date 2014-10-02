@@ -16,19 +16,19 @@ def prompt(msg)
 end
 
 def start
-prompt("Welcome to calculator 1.0")
-sleep 1
-prompt("Please choose an operator:")
+  prompt("Welcome to calculator 1.0")
+  sleep 1
+  prompt("Please choose an operator:")
 
-#Get users choice for an operator
-operators = gets.chomp
+  #Get users choice for an operator
+  operators = gets.chomp
 
-#Define to local variables and assign to gets then convert to float
-prompt("Enter the first number:")
-num1 = gets.chomp.to_f
+  #Define to local variables and assign to gets then convert to float
+  prompt("Enter the first number:")
+  num1 = gets.chomp.to_f
 
-prompt("Now enter the second number:")
-num2 = gets.chomp.to_f
+  prompt("Now enter the second number:")
+  num2 = gets.chomp.to_f
 
 #if statement to check which prompt to use then calculate the results
    if operators == "+"
