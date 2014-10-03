@@ -4,7 +4,6 @@
 #do the math
 #display results
 
-
 #A prompt to make the console cleaner
 def prompt(msg)
   puts "=> #{msg}"
