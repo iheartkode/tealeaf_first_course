@@ -45,6 +45,8 @@ end
 start_game
 
 prompt("Would you like to play again?")
+prompt("type yes or no.")
+
 answer = gets.chomp.upcase
 
 if answer == "YES"
